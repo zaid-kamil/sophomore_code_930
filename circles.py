@@ -1,0 +1,23 @@
+from turtle import *
+
+speed('slow')
+pen(pensize=10,pencolor='purple')
+circle(50)
+up()
+goto(0, -50)
+down()
+circle(50)
+up()
+goto(0, 50)
+down()
+circle(50)
+up()
+goto(50, 0)
+down()
+circle(50)
+up()
+goto(-50, 0)
+down()
+circle(50)
+
+mainloop()
